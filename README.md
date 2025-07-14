@@ -1,5 +1,5 @@
 # AbandonedLuggageDetection
-## YOLOv8 Object Tracking and Abandonment Detection
+## YOLOv11 and YOLOv8 Object Tracking and Abandonment Detection
 This project implements a real-time object tracking and abandonment detection system using the YOLOv8 object detection model. The primary focus is on detecting and tracking persons and suitcases in a video feed and identifying potentially abandoned suitcases based on their movement and proximity to people. This project is part of my master's thesis and features custom-trained YOLOv8 models that have been specifically trained on custom datasets to enhance detection accuracy for the target objects.
 
 ## Features
