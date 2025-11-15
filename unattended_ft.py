@@ -35,7 +35,8 @@ print(model.names)
 
 #video_path = "/C:/Users/admin/ABODA/cropped/video1.mp4"
 #video_path = "C:/Users/admin/Downloads/abandoned_12.mp4"
-video_path = "./videos/Unattended.mp4"
+#video_path = "./videos/Unattended.mp4"
+video_path = "C:/Users/admin/Unattended/test_videos/1.mp4"
 
 cap = cv2.VideoCapture(video_path)
 fps = cap.get(cv2.CAP_PROP_FPS)

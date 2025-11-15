@@ -1,3 +1,6 @@
 *.log
 annotated_videos/
 screenshots/
+started_moving/
+test_videos/ 
+screenshots
