@@ -1,3 +1,0 @@
-model_name,video_name,total_tp,total_fp,total_fn,precision,recall,f1_score,overall_avg_iou,avg_inference_ms,total_frames,iou_threshold
-finetuned_model,16.mp4,0,1241,1168,0.0000,0.0000,0.0000,0.0000,41.21,905,0.5
-finetuned_model,17.mp4,0,28,846,0.0000,0.0000,0.0000,0.0000,20.66,688,0.5
