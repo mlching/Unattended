@@ -5,10 +5,11 @@ Brief overview
 - Key outputs: annotated videos (`annotated_videos/`), screenshots (`screenshots/`), and evaluation CSV (`metrics/unattended_results_summary.csv`).
 
 Quick start / prerequisites
-- Python 3.10
+- Python 3.12
 - Install required packages (example):
-  pip install ultralytics opencv-python numpy matplotlib
+  pip install ultralytics opencv-python numpy matplotlib transformers
 - torch is optional but recommended for faster inference time
+  pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 
 Primary scripts
 - [unattended_eval.py](unattended_eval.py) — Batch evaluation runner and CSV summary generator. See [`run_evaluation_on_video`](unattended_eval.py), [`load_cvat_annotations`](unattended_eval.py), [`write_summary_to_csv`](unattended_eval.py), and [`main`](unattended_eval.py).
